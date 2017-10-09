@@ -1,0 +1,6 @@
+loadmap -file T1.2
+start //start game
+
+spawnnow -type "hobbit" -coord 1 1
+info -coord 1 1
+wait -time 1000

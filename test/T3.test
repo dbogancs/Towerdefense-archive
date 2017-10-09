@@ -1,0 +1,21 @@
+loadmap -file T3
+start //start game
+
+buyobstacle -type "slowing"
+place -coord 1 1
+
+spawnnow -type "human" -coord 1 1
+
+info -coord 1 1
+
+wait -time 20
+
+info -coord 1 1
+
+wait -time 10
+
+buyobstacle -type "wounding"
+place -coord 2 0
+
+info -coord 2 0
+

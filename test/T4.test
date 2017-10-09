@@ -1,0 +1,18 @@
+loadmap -file T4
+start //start game
+
+spawnnow -type "elf" -coord 0 1
+
+spawnnow -type "human" -coord 1 1
+
+savemap -file T4.mapout
+
+wait -time 10
+
+info -coord 0 1
+info -coord 1 1
+
+wait -time 80
+
+info -coord 0 1
+info -coord 1 1

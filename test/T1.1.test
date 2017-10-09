@@ -1,0 +1,5 @@
+loadmap -file T1.1
+setdiff -to "easy" //set difficulty to easy
+setlimit -to 1 //set time limit to one minute
+start //start game
+wait -time 5000

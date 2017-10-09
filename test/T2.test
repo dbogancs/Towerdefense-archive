@@ -1,0 +1,17 @@
+loadmap -file T2
+start //start game
+
+buytower -type "arrowshooter"
+place -coord 1 0
+
+wait -time 1000
+
+buytower -type "arrowshooter"
+place -coord 0 0
+
+wait -time 1000
+
+buytower -type "arrowshooter"
+place -coord 1 0
+
+info -coord 1 0
